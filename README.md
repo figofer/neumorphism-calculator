@@ -1,2 +1,2 @@
 # neumorphism-calculator
-![Deskripsi Gambar](public/image.png)
+![Deskripsi Gambar](web/public/image.png)

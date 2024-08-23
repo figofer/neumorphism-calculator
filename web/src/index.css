@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Digital7';
+  src: url('./assets/digital_7/digital-7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+h-screen {
+  background-color: #E0E5EC;
+}
+
+.shadow-neumorph {
+  box-shadow: 7px 7px 15px #babecc, -7px -7px 15px #ffffff;
+}
+
+.shadow-inner-neumorph {
+  box-shadow: inset 7px 7px 15px #babecc, inset -7px -7px 15px #ffffff;
+}
+
+.shadow-neumorph-active {
+  box-shadow: 3px 3px 6px #babecc, -3px -3px 6px #ffffff;
+}
+
+.tombol {
+  padding: 20px;
+  background-color: #E0E5EC;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-family: 'Digital7', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.tombol:hover {
+  background-color: #e2d8c9;
+  box-shadow: 3px 3px 6px #ccc2ba, -3px -3px 6px #ffffff;
+}
+
+.tombol:active {
+  background-color: #E0E5EC;
+  box-shadow: inset 3px 3px 6px #babecc, inset -3px -3px 6px #ffffff;
+}
+
+.digital-7 {
+  font-family: 'Digital7', sans-serif;
+}
+
